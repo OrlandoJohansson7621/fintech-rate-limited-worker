@@ -1,0 +1,8 @@
+{
+  "name": "fintech-rate-limited-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/worker.test.ts", "start": "tsx src/worker.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.2", "typescript": "^5.6.3"}
+}
